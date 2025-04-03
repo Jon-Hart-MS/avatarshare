@@ -353,7 +353,7 @@ function handleUserQuery(userQuery) {
             throw new Error(`Chat API response status: ${response.status} ${response.statusText}`);
         }
 
-        chatHistoryTextArea.innerHTML += 'Digital Lillian: ';
+        chatHistoryTextArea.innerHTML += 'Digital Avatar: ';
 
         const reader = response.body.getReader();
 
